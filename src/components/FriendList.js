@@ -1,6 +1,5 @@
 
 import FriendItem from "./FriendItem";
-import friends from 'data/friends';
 
 export default function FriendList({ friends }) {
     return (
