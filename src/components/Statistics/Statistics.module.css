@@ -14,6 +14,8 @@
         font-size: 25px;
         font-weight: bold;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #e9f1ef;
+        background-color: #3b5656;
 }
 
 .statList {
@@ -27,6 +29,7 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         list-style: none;
+        
 }
 
 
@@ -35,11 +38,13 @@
     display: flex;
     color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .label {
     color: black;
-    font-weight: bold;     
+    font-weight: bold;
+         
 }
 
 .percentage {
