@@ -1,17 +1,19 @@
 
-import Profile from "./Profile";
-import Statistics from "./Statistics";
-import TransactionHistory from "./Transactions";
+import Profile from "./Profile/Profile";
+import Statistics from "./Statistics/Statistics";
+import TransactionHistory from "./Transactions/Transactions";
 import friends from 'data/friends';
 import user from 'data/user';
 import data from 'data/data';
 import transactions from 'data/transactions';
-import FriendList from "./FriendList";
+import FriendList from "./FriendList/FriendList";
 
 export const App = () => {
   return (
     <div
       style={{
+        padding: 50,
+        backgroundColor: '#f8f2ed',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

@@ -1,0 +1,49 @@
+
+.statistics {
+    margin-top: 30px;
+        width: 500px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        background-color: #e9f1ef;
+}
+
+.title {
+    display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.statList {
+        padding: 0;
+        text-align: center;
+        color: gray;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        list-style: none;
+}
+
+
+.item {
+    flex-direction: column;
+    display: flex;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.label {
+    color: black;
+    font-weight: bold;     
+}
+
+.percentage {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
