@@ -1,24 +1,24 @@
-
 .transactionHistory {
-    width: 500px;
-    border: 1px solid transparent;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    background-color: #e9f1ef;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 500px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: #e9f1ef;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .title {
-    padding: 10px 50px;
-    color: #e9f1ef;
-    background-color: #3b5656;
-    border: 1px solid #fff;
+  padding: 10px 50px;
+  color: #e9f1ef;
+  background-color: #3b5656;
+  border: 1px solid #fff;
 }
 
 .data {
-    border: 1px solid #fff;
-    padding: 10px 50px;
+  border: 1px solid #fff;
+  padding: 10px 50px;
 }
 
 .table:nth-child(even) {
-    background-color: #c9dbd7;
+  background-color: #c9dbd7;
 }
