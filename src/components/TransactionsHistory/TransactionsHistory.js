@@ -26,9 +26,9 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.propTypes = {
-  itemss: PropTypes.arrayOf(
+  items: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      id: PropTypes.string,
       type: PropTypes.string.isRequired,
       amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
