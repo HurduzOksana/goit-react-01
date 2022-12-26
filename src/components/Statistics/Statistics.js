@@ -1,4 +1,5 @@
 import css from './Statistics.module.css';
+import PropTypes from "prop-types";
 
 export default function Statistics({ stats }) {
     return (
@@ -17,3 +18,8 @@ export default function Statistics({ stats }) {
 </section>
     );
 }
+
+Statistics.propTypes = {
+  label: PropTypes.string,
+  percentage: PropTypes.number,
+};

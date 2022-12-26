@@ -1,4 +1,5 @@
 
+import PropTypes from "prop-types";
 import css from './Transaction.module.css';
 
 export default function TransactionHistory({ info }) {
@@ -28,3 +29,9 @@ export default function TransactionHistory({ info }) {
 
     );
 }
+
+TransactionHistory.propTypes = {
+  type: PropTypes.number,
+  amount: PropTypes.number,
+  currency: PropTypes.number,
+};
